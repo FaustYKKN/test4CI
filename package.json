@@ -1,0 +1,43 @@
+{
+  "name": "test4ci",
+  "version": "1.0.0",
+  "description": "test4CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaustYKKN/test4CI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaustYKKN/test4CI/issues"
+  },
+  "homepage": "https://github.com/FaustYKKN/test4CI#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "antd": "^3.26.12",
+    "eslint": "^5.14.1",
+    "eslint-plugin-react": "^7.12.4",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "moment": "^2.24.0",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "webpack": "3.8.1",
+    "webpack-hot-middleware": "2.13.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-proxy-middleware": "0.0.4"
+  }
+}

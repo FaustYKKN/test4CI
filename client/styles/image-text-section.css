@@ -1,0 +1,43 @@
+.imageTextSection {
+  padding: 1.5rem 0;
+}
+
+.imagePart {
+  height: auto;
+}
+
+.imageTextSection .imagePart {
+  padding-right: 5%;
+  display: block;
+  max-width: 100%;
+  left: 0;
+  height: auto;
+  position: relative;
+  opacity: 0;
+}
+
+.imageTextSection .imagePart.reverse {
+  padding-right: 0;
+  padding-left: 5%;
+  left: auto;
+  right: 0;
+}
+
+.imageTextSection .imagePart.inView  {
+  opacity: 1;
+  transform: translate( 0 )!important;
+}
+
+.imageTextSection .textPartWrapper {
+  padding: 3rem 0;
+}
+
+@media (max-width: 992px) {
+  .imageTextSection .imagePart {
+    width: 90%;
+    padding: 0!important;
+    margin-left: 5%;
+    left: 0!important;
+    right: auto;
+  }
+}

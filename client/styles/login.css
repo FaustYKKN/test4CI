@@ -1,0 +1,36 @@
+.content {
+  position: relative;
+}
+#captcha {
+  display: inline-block;
+  width: 80%;
+  position: relative;
+  vertical-align: middle;
+}
+
+#captcha .epm-form_field {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#captcha span {
+  padding: 0 10px;
+  float: right;
+}
+
+.epm-modal_body .epm-form_horizontal .epm-form_item .epm-label {
+  /* float: none!important; */
+  width: 6em;
+  vertical-align: middle;
+}
+
+.errInfo {
+  text-align: center;
+  color: indianred;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

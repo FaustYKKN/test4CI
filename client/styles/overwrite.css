@@ -1,0 +1,9 @@
+pre code, .hljs {
+  display: block;
+  margin: 2px;
+  overflow-x: auto;
+  border-radius: 5px;
+  padding: 0.5rem;
+  box-shadow: 0 0 1px #bbb;
+  font-family: Consolas,Arial,Helvetica,sans-serif;
+}

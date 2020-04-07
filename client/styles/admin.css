@@ -1,0 +1,66 @@
+.admin-header {
+  padding: 10px 10px;
+  height: 100%;
+  background: #333;
+}
+
+.admin-sider {
+  height: 100%;;
+  background: #414956;
+}
+.admin-menu-title {
+  line-height: 50px;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 20px;
+  border-bottom: 1px solid #646d7c
+}
+
+.admin-header-userinfo {
+  text-align: right;
+  font-size: 16px;
+  line-height: 40px;
+}
+.admin-header-avatar {
+}
+.admin-header-user {
+  margin-left: 15px;
+}
+.admin-header-logout {
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+.admin-flex {
+  display: flex;
+  align-items: stretch;
+}
+.admin-flex-1 {
+  flex: 1;
+}
+.admin-flex-2 {
+  flex: 2;
+}
+.admin-flex-3 {
+  flex: 3;
+}
+
+.post-modal .epm-form .epm-label {
+  color: #000;
+}
+
+.post-link-container {
+  padding-left: 5.2rem;
+  display: flex;
+}
+
+/* .post-link-container > div:nth-child(0) {
+  flex-grow: 1;
+}
+.post-link-container > div:nth-child(1) {
+  flex-grow: 2;
+} */
+
+.bonc-admin-settings .epm-form_horizontal .epm-form_item .epm-label {
+  max-width: 250px;
+}

@@ -1,0 +1,45 @@
+.tdsContent {
+  font-family: Consolas, Arial, Helvetica, sans-serif;
+}
+
+.tdsContent .tdsContentWrapper h2 {
+  font-weight: 500;
+  font-size: 2.75rem;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  color: #022144;
+  margin-bottom: 20px;
+  padding-left: 0.5rem;
+}
+
+.tdsContent .tdsContentWrapper p {
+  color: #697a89;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.tdsContent b, .tdsContent strong {
+  font-weight: bold;
+  color: rgb(42, 42, 42);
+}
+
+.tdsContent .tdsContentWrapper {
+  padding-left: 5%;
+}
+
+.tdsContent .tdsContentWrapper.left {
+  padding-left: 0;
+  padding-right: 5%;
+}
+
+
+@media (max-width: 992px) {
+  .tdsContent .tdsContentWrapper, .tdsContent .tdsContentWrapper.left {
+    padding: 0 5%;
+  }
+}
+
+.docsManagementWrapper {
+  padding-top: 1rem;
+}

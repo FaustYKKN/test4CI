@@ -1,0 +1,17 @@
+.rLayout {
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.headerTitle {
+  color: #000;
+}

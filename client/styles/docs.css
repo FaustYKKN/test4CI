@@ -1,0 +1,42 @@
+.docsListWrapper .cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.docsListWrapper .cardsWrapper .docsCard {
+  margin: 16px 1%;
+  min-width: 200px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  float: none
+}
+
+.docsListWrapper .cardsWrapper .docsCard .title {
+  padding: .8rem 0;
+}
+
+.docsListWrapper .cardsWrapper .docsCard .content {
+}
+
+@media screen and (max-width: 576px) {
+
+  .docsListWrapper .cardsWrapper .docsCard {
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 1200px) {
+
+  .docsListWrapper .cardsWrapper .docsCard {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .docsListWrapper .cardsWrapper .docsCard {
+    width: 31.3%;
+  }
+}

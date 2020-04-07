@@ -1,0 +1,55 @@
+.innerSourceBG {
+  position: absolute;
+  height: 550px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* height: 754px; */
+  width: 100%;
+  filter: blur(2px);
+  opacity: 0.5;
+}
+
+.innerSourceSubTitle {
+  letter-spacing: 2px;
+  font-size: 46px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.innerSourceBannerText {
+  max-width: 980px;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 1px 1px #232f40;
+}
+
+.innerSourceContentIndex {
+  background: #cecece;
+  display: inline-block;
+  padding: 0.125rem;
+  width: 3rem;
+  text-align: center;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  box-shadow: -0.55rem -0.25rem 0 #777;
+  border-radius: 10px 0 10px 0;
+  transform: skewX(-10deg);
+}
+
+.innerSourceContentIndex span {
+  display: inline-block;
+  transform: skewX(10deg);
+}
+
+.hh .epm-input[readonly] {
+  user-select: all;
+}
